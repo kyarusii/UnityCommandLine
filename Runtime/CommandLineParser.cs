@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Calci.CommandLine
@@ -7,6 +8,16 @@ namespace Calci.CommandLine
     public class CommandLineParser
     {
         private static CommandLineParser _inst;
+
+        public static bool HasKey(string key)
+        {
+            if (_inst == null)
+            {
+                _inst = new CommandLineParser();
+            }
+
+            return (arguments.ContainsKey(key));
+        }
         
         public static bool GetBool(string arg, bool defaultValue = false)
         {
