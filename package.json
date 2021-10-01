@@ -1,0 +1,26 @@
+{
+  "name": "com.calci.commandline",
+  "version": "1.0.0",
+  "description": "a simple plugins to parse commandline arguements with unity client.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seonghwan-dev/UnityCommandLine.git"
+  },
+  "keywords": [
+    "unity",
+    "commandline",
+    "arguments",
+    "parser"
+  ],
+  "author": {
+    "name": "Seonghwan",
+    "email": "seonghwan@pm.me",
+    "url": "https://github.com/seonghwan-dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seonghwan-dev/UnityCommandLine/issues"
+  },
+  "homepage": "https://github.com/seonghwan-dev/UnityCommandLine#readme",
+  "displayName": "Command Line Parser"
+}
