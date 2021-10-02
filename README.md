@@ -1,5 +1,7 @@
 # Unity CommandLine
 
+[![NPM](https://nodei.co/npm/com.calci.commandline.png)](https://npmjs.org/package/com.calci.commandline)
+
 ## Editor
 the setting for editor is stored at `Assets/Editor Default Resources/CommandLine Setting.asset`.  
 also, you can modify the setting in `Project Settings/Command Line`.  
