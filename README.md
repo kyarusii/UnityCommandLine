@@ -39,7 +39,7 @@ private IEnumerator ParseArgument()
 ```
 
 ## API
-API will return default values when there is not valid key.  
+API will return default values when there is no valid key.  
 You can specify default value for the situation.  
 
 - `CommandLineParser.HasKey`
