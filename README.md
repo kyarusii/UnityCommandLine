@@ -1,6 +1,10 @@
-# UnityCommandLine
+# Unity CommandLine
 
 ## Editor
+the setting for editor is stored at `Assets/Editor Default Resources/CommandLine Setting.asset`.  
+also, you can modify the setting in `Project Settings/Command Line`.  
+this should not be included in standalone build.  
+
 ![image](https://user-images.githubusercontent.com/79823287/135699649-8142430f-d98e-4e6a-b688-71ac26460acb.png)
 
 ## Standalone
@@ -33,3 +37,14 @@ private IEnumerator ParseArgument()
 	}
 }
 ```
+
+## API
+API will return default values when there is not valid key.  
+You can specify default value for the situation.  
+
+- `CommandLineParser.HasKey`
+- `CommandLineParser.GetBool`
+- `CommandLineParser.GetString`
+- `CommandLineParser.GetInt`
+- `CommandLineParser.GetFloat`
+
