@@ -1,6 +1,9 @@
 # Unity CommandLine
 
+## Install
 [![NPM](https://nodei.co/npm/com.calci.commandline.png)](https://npmjs.org/package/com.calci.commandline)
+- scope : `com.calci`  
+- package name : `com.calci.commandline`  
 
 ## Editor
 the setting for editor is stored at `Assets/Editor Default Resources/CommandLine Setting.asset`.  
